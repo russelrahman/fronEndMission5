@@ -1,0 +1,69 @@
+.header {
+  height: 55px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #161616; /* Old browsers */
+  background: -moz-linear-gradient(top,  #161616 0%, #595959 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #161616 0%,#595959 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #161616 0%,#595959 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#595959',GradientType=0 ); /* IE6-9 */
+  border-bottom: 2px solid #BCBCBC;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #A6A6A6;
+  position: absolute;
+  bottom: 3px;
+}
+.logo {
+  padding-left: 24px;
+}
+.menu {
+  padding-right: 24px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu ul li {
+  display: flex;
+  margin: 0 24px;
+}
+.menu ul li a {
+  font-size: 14px;
+  color: white;
+}
+.banner {
+  height: 194px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+}
+.contentTx {
+  margin-top: 60px;
+}
+.contentTx h1{
+  color: black;
+  font-weight: 24px;
+}
+.sectionHight {
+  /* margin-top: 60px; */
+}
+.content {
+  width: 1170px;
+  margin: auto;
+}
+.contentTx p{
+  color: black;
+  font-size: 18px;
+  margin-top: 32px;
+}
